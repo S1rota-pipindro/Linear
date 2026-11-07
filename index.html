@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Linear Asks</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      
+      <div class="header__flex">
+
+        <div class="logo_and_menu_flex">
+          <a href="#" class="logo">
+            <img src="img/logo.svg" alt="Logo">
+          </a>
+
+          <div class="nav">
+            <ul class="main__menu">
+              <li class="has__dropdown"><a href="#">Features</a>
+                <ul class="dropdown_menu">
+                  <li><a href="#slack">Slack</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Services</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Method</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Changelog</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button class="btn">Log in</button>
+          <button class="btn__blue">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="section__hero">
+    <div class="container">
+      <div class="hero__item center">
+
+        <div class="hero__img_flex">
+
+          <img src="img/big_logo.svg" alt="Big Logo" class="hero__img">
+
+        </div>
+
+        <div class="hero__text">
+          <h3 class="hero_eyebrown">Linear Asks</h3>
+          <p class="inter_text">Linear Asks is the easiest way to create and manage workplace requests. <br />Streamline bug reports, feature ideas, IT tickets, HR requests, and more.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="container video">
+    <img src="img/article.png" alt="article" class="article__img">
+    <button class="play-btn">
+      <span class="play-icon"></span>
+      See how it works
+    </button>
+  </div>
+  
+  <h1 class="title_text">Create requests in Slack.<br />Manage them in Linear.</h1>
+
+  <p class="inter_text">Linear Asks is a new take on intake. Submit requests directly<br />from Slack and automatically send them to the relevant team in<br />Linear. Eliminate cluttered channels and reduce context switching.</p>
+
+
+
+  <section class="section__slack" id="slack">
+    <div class="container">
+      
+      <div class="pretitle__wrapper">
+        <div class="pretitle">
+          <img src="img/slack.svg" alt="Slack icon" class="slack__img"> Slack
+        </div>
+
+        <div class="title__flex">
+          <h2 class="section__title">Works where your team already is. In Slack.</h2>
+          <p class="title_description">
+            Let everyone in your Slack workspace turn their requests into<br />Linear issues — even if they don’t have a Linear account.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="flex__row">
+        
+        <div class="card card_60 bg__blue">
+          <div class="card__item_1_flex">
+            <div class="card__content">
+              <div class="card__pretitle">Templates</div>
+              <p class="card__title">Create custom templates<br />for different Slack channels.</p>
+            </div>
+            <div class="card__img">
+              <img src="img/card_bug_rep.png" alt="Bug Report Card" class="bug_report_card_img">
+            </div>
+          </div>
+        </div>
+
+        <div class="card card_40 bg_black bg__image_lock">
+          <div class="card__item_2_flex h100">
+            <div class="card_null"></div>
+            <div class="card__content">
+              <div class="black__card__pretitle">Private asks</div>
+              <p class="black__card_title">Create private Asks via<br />DM for sensitive requests.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="flex__row">
+        <div class="card card_50 bg_black">
+          <div class="comm_parent">
+            <div class="avatar">
+              <img src="img/avatar.png" alt="Adrien">
+            </div>
+            <div class="comm_content">
+              <div class="author_time">
+                <span class="author">adrien</span>
+                <span class="time">15:40</span>
+              </div>
+              <div class="Qomment">
+                <span class="comment">Could I get access to Google Analytics?</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="card card_50 bg_black">
+          <div class="card__item_2_flex">
+            <div class="card__img"><img src="img/asks_notif.png" alt="Notification picture"></div>
+            <div class="card__content">
+              <div class="black__card__pretitle">Instant Updates</div>
+              <p class="black__card_title">Get notified about comments and<br />status updates directly in Slack.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+<section class="section__linear">
+    <div class="container">
+      
+      <div class="pretitle__wrapper">
+        <div class="pretitle pretitle_linear">
+          <img src="img/logo_circle.svg" alt="linear logo" class="linear__logo"> <span>linear</span>
+        </div>
+
+        <div class="title__flex">
+          <h2 class="section__title">Respond to requests <br />faster than ever before.</h2>
+          <p class="title_description">Review, prioritize, assign, and update each <br />issue without ever switching back to Slack.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="flex__row">
+        <div class="card card_40 bg_black pr_0">
+          <div class="card__item_2_flex h100">
+            <div class="card__img"><img src="img/sarah_alex.png" alt="" class=""></div>
+            <div class="card__content">
+              <div class="black__card__pretitle">Realtime thread sync</div>
+              <p class="black__card_title">Reply to Asks directly from Linear.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card_60 bg__blue pr_0 pb_0">
+          <div class="card__item_1_flex">
+            <div class="card__content">
+              <div class="card__pretitle">Triage</div>
+              <p class="card__title">Manage incoming <br />requests from a <br />shared team inbox.</p>
+            </div>
+            <div class="card__img_2">
+              <img src="img/img_margin.png" alt="Image margin Card" class="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex__row">
+        <div class="card card_50 bg_black bg__image_flash">
+          <div class="card__item_2_flex">
+            <div class="card__null"></div>
+            <div class="card__content">
+              <div class="black__card__pretitle">Automation Triggers</div>
+              <p class="black__card_title">Turn any message into an<br />Ask simply by using an emoji.</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="card card_50 bg_black pr_0 pt_0">
+          <div class="card__item_2_flex h100">
+            <div class="card__img card__img_top"><img src="img/teams.png" alt="private teams picture" class="teams_img"></div>
+            <div class="card__content">
+              <div class="black__card__pretitle">Private teams</div>
+              <p class="black__card_title">Control who has access to <br />sensitive requests.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  
+</body>
+</html>

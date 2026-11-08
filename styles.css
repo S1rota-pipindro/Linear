@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;  /* smooth scrolling when clicking anchor links */
 }
 body {
   margin: 0;
@@ -49,11 +49,55 @@ a {
   font-family: "Inter", sans-serif;
   font-size: 14px;
 }
-
+.yellow_ticket {
+  width: 21px;
+  height: auto;
+}
+img.reaction {
+  width: 30px;
+  height: auto;
+  transition: 300ms ease-in-out;
+}
+.btn_reaction {
+  width: 30px;
+  height: 22px;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btn_reaction:hover img.reaction {
+  transform: scale(1.3);
+  transition: 300ms ease-in-out;
+}
+.comm__reactions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.comment {
+  display: block;
+  margin-top: 6px;
+}
+.Qomment_and_reactions {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
 .comm_parent {
   display: flex;
-  gap: 22px;
-  height: 118px;
+  gap: 15px;
+  padding: 14px;
+  box-sizing: border-box;
+  height: 116px;
+  border: 1px solid #3E3E44;
+  border-radius: 10px;
+  background-color: #252528;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, .35);
 }
 .avatar {
   flex: 0 48px;
@@ -66,10 +110,13 @@ a {
   font-weight: 500;
 }
 .time {
-  font-weight: 200;
+  font-weight: 370;
+  font-size: small;
+  color: grey;
 }
 .author_time {
   display: flex;
+  align-items: flex-end;  /*this means that the time & author(Adrien) will be placed in the end of flexbox - time & author on the same line*/
   gap: 10px;
 }
 a.logo {
@@ -79,12 +126,13 @@ a.logo {
   text-align: center;
 }
 
-.inter_text {
+.common_text {
   text-align: center;
   margin-bottom: 150px;
   font-weight: 350;
   font-size: 21px;
 }
+/* == text style for h1 ==*/
 .title_text {
   font-weight: 600;
   font-size: 48px;
@@ -149,7 +197,7 @@ a.logo {
 
 
 .hero_eyebrown {
-   background: -webkit-linear-gradient( #FF9466, #FF4D00);
+  background: -webkit-linear-gradient( #FF9466, #FF4D00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
@@ -221,21 +269,33 @@ a.logo {
   cursor: pointer;
   border: none;
   padding: 8px 20px;
-  color: #fff;
+  color: #F7F8F8;
   background-color: transparent;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  /* font-size: 16px; */
+}
+.btn__yellow_ticket {
+    background-color: #2d639e;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    border: none;
+    padding: 1px 10px;
+    border-radius: 999px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .btn__blue {
   background-color: #5E6AD2;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
   font-weight: 500;
-  color: #fff;
+  color: #F7F8F8;
   border: none;
-  padding: 10px 20px;
+  padding: 8px 15px;
   border-radius: 999px;
   cursor: pointer;
 }
@@ -347,9 +407,6 @@ a.logo {
 .card__img img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
-  border: 1px solid #3E3E44;
-  box-shadow: 0px 18.04px 40px 0px #00000033;
   box-sizing: border-box;
 }
 .black__card__pretitle {
@@ -372,7 +429,11 @@ p.card__title {
   color: #99BCFE;
   font-weight: 600;
 }
-
+.teams_img {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid #3E3E44;
+}
 .card__item_2_flex {
   display: flex;
   flex-direction: column;

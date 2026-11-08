@@ -19,7 +19,6 @@
           <a href="#" class="logo">
             <img src="img/logo.svg" alt="Logo">
           </a>
-
           <div class="nav">
             <ul class="main__menu">
               <li class="has__dropdown"><a href="#">Features</a>
@@ -61,7 +60,7 @@
 
         <div class="hero__text">
           <h3 class="hero_eyebrown">Linear Asks</h3>
-          <p class="inter_text">Linear Asks is the easiest way to create and manage workplace requests. <br />Streamline bug reports, feature ideas, IT tickets, HR requests, and more.</p>
+          <p class="common_text">Linear Asks is the easiest way to create and manage workplace requests. <br />Streamline bug reports, feature ideas, IT tickets, HR requests, and more.</p>
         </div>
 
       </div>
@@ -79,7 +78,7 @@
   
   <h1 class="title_text">Create requests in Slack.<br />Manage them in Linear.</h1>
 
-  <p class="inter_text">Linear Asks is a new take on intake. Submit requests directly<br />from Slack and automatically send them to the relevant team in<br />Linear. Eliminate cluttered channels and reduce context switching.</p>
+  <p class="common_text">Linear Asks is a new take on intake. Submit requests directly<br />from Slack and automatically send them to the relevant team in<br />Linear. Eliminate cluttered channels and reduce context switching.</p>
 
 
 
@@ -128,22 +127,39 @@
 
       <div class="flex__row">
         <div class="card card_50 bg_black">
-          <div class="comm_parent">
-            <div class="avatar">
-              <img src="img/avatar.png" alt="Adrien">
+          <div class="card__item_2_flex">
+            <div class="comm_parent">
+              <div class="avatar">
+                <img src="img/avatar.png" alt="Adrien">
+              </div>
+              <div class="comm_content">
+                <div class="author_time">
+                  <span class="author">adrien</span>
+                  <span class="time">15:40</span>
+                </div>
+                <div class="Qomment_and_reactions">
+                  <div class="Qomment">
+                    <span class="comment">Could I get access to Google Analytics?</span>
+                  </div>
+                  <div class="comm__reactions">
+                    <button class="btn__yellow_ticket">
+                      <img class="yellow_ticket" src="img/ticket.png" alt="reaction Ticket">
+                      <span id="reaction-count">1</span>
+                    </button>
+                    <button onclick="react_add(1)" class="btn_reaction">
+                      <img class="reaction" src="img/reaction.png" alt="add reaction">
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="comm_content">
-              <div class="author_time">
-                <span class="author">adrien</span>
-                <span class="time">15:40</span>
-              </div>
-              <div class="Qomment">
-                <span class="comment">Could I get access to Google Analytics?</span>
-              </div>
+            <div class="card__content">
+              <div class="black__card__pretitle">Automation Triggers</div>
+              <p class="black__card_title">Turn any message into an <br />Ask simply by using an emoji.</p>
             </div>
           </div>
         </div>
-        
+
 
         <div class="card card_50 bg_black">
           <div class="card__item_2_flex">
@@ -206,7 +222,7 @@
       <div class="flex__row">
         <div class="card card_50 bg_black bg__image_flash">
           <div class="card__item_2_flex">
-            <div class="card__null"></div>
+            <div class="card__null"></div> /* */
             <div class="card__content">
               <div class="black__card__pretitle">Automation Triggers</div>
               <p class="black__card_title">Turn any message into an<br />Ask simply by using an emoji.</p>
@@ -232,6 +248,6 @@
 
 
 
-  
+  <script src="js/main.js"></script>
 </body>
 </html>

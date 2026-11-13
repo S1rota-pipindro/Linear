@@ -440,6 +440,10 @@ p.card__title {
   justify-content: space-between;
   min-height: 270px;
 }
+img.bug_report_card_img {
+  border: 2px solid #3E3E44;
+  border-radius: 10px;
+}
 .h100 {
   height: 100%;
 }
@@ -522,3 +526,33 @@ section.section__slack,
 .card__img_2 img {
   border-radius: 0 0 24px 0;
 }
+
+/*== JUNI card ==*/
+.card_juni {
+  height: 380px;
+  width: 908px;
+  border: 1px solid #252528;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.juni__flex {
+  display: flex;
+  justify-content: center;
+}
+.quote {
+  max-width: 386px;
+  line-height: 1.4; 
+  font-family: "Inter", sans-serif;
+  font-weight: 550;
+  font-size: 22px;
+  color: #D0D6E0;
+}
+.grey_words {
+  color: grey;
+}
+.juni__image {
+  height: 380px;
+  width: 308px;
+}
+/*== JUNI card ==*/

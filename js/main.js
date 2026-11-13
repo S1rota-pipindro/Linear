@@ -5,10 +5,10 @@ function react_add() {
 
     document.getElementById("reaction-count").textContent = reactionCount;
 
-    if (reactionCount == 20) {
+    if (reactionCount == 10) {
         alert("Вітаємо! ви знайшли секрет");
     }
-    if (reactionCount == 40) {
+    if (reactionCount == 30) {
         alert("Чого ти очікував клікаючи далі?")
     }
 }

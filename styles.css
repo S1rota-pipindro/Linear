@@ -288,10 +288,16 @@ a.logo {
     gap: 4px;
 }
 
+
+
+
+
+
+
+/* ======= BUTTONS ======== */
 .btn__blue {
   background-color: #5E6AD2;
   font-family: "Inter", sans-serif;
-  /* font-size: 16px; */
   font-weight: 500;
   color: #F7F8F8;
   border: none;
@@ -299,6 +305,17 @@ a.logo {
   border-radius: 999px;
   cursor: pointer;
 }
+.btn__black {
+  background-color: #161618;
+  border: 1px solid #2E2E32;
+}
+/* ======= BUTTONS ======== */
+
+
+
+
+
+
 .play-btn {
   position: absolute; 
   top: 50%;
@@ -418,6 +435,7 @@ p.black__card_title {
   font-size: 20px;
   color: #F7F8F8;
   font-weight: 600;
+  max-width: 225px;
 }
 .card__pretitle {
   font-size: 14px;
@@ -556,3 +574,248 @@ section.section__slack,
   width: 308px;
 }
 /*== JUNI card ==*/
+
+.workflow_text {
+  color: #8A8F98;
+  font-size: small;
+}
+.pretitle_workflows {
+  margin-top: 60px;
+}
+.workflows_title {
+  max-width: 200px;
+  margin: 0;
+}
+.title__flex .workflows_decription{
+  flex: 0 55%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #D0D6E0;
+}
+/*==BIGGEST CARD ON PAGE==*/
+.card_swamp {
+  border: 1px solid #2E2E32;
+  border-radius: 25px;
+  background: linear-gradient(to bottom left, #4F5D5F, #333E58);
+  min-height: 460px;
+  position: relative;
+  overflow: hidden;
+}
+.graf {
+  display: block;
+  position: absolute;
+  content: "";
+  left: -46%;
+  top: 10px;
+  bottom: 0;
+  width: 96%;
+  height: auto;
+  border-radius: 10px;
+  transition: 300ms ease-in-out;
+}
+.card_swamp:hover .graf {
+  left: -50%;
+  transition: 300ms ease-in-out;
+}
+img.fly_window {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  transform: scale(1);
+  transition: 300ms ease-in-out;
+}
+.card_swamp:hover img.fly_window {
+  transform: scale(1.1);
+  transition: 300ms ease-in-out;
+}
+.fly__content {
+  position: absolute;
+  content: "";
+  width: 36%;
+  top: 80px;
+  right: 20px;
+}
+.fly_title {
+  color: #F7F8F8;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px; 
+}
+span.title_badge {
+  font-size: 11px;
+  color: #F7F8F8;
+  background: #5E6AD2;
+  border-radius: 4px;
+  padding: 3px 5px;
+}
+
+.fly__text {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #89D4C7;
+}
+
+
+section.section__workflows {
+  margin-bottom: 30px;
+}
+section.section__fires {
+  margin-bottom: 100px;
+}
+
+.grey_color {
+  color:#8A8F98;
+}
+
+.teams_img_2 {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid #3E3E44;
+  height: 130% !important;
+}
+
+
+
+
+.fires__flex {
+  display: flex;
+}
+.fires_list, .fires__content {
+  flex: 1;
+}
+.fires_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p_0 {
+  padding: 0;
+  align-items: center;
+}
+.w300 {
+  max-width: 300px !important;
+}
+.fires__content {
+  padding-left: 50px;
+}
+
+h2.title_text {
+  margin-bottom: 15px;
+}
+
+
+.masonry__grid {
+  column-count: 3;
+  column-gap: 30px;
+}
+.masonry__item {
+  break-inside: avoid;
+  margin-bottom: 30px;
+}
+.masonry__content {
+  padding: 40px
+}
+.section__how_to_use .common_text {
+  margin-bottom: 75px;
+}
+
+
+
+
+.footer__hero .hero__img_flex {
+  margin: -80px auto 0;
+}
+.footer__hero .title_text {
+  margin-top: 40px;
+  font-size: 37px;
+}
+.footer__hero .common_text {
+  margin-bottom: 60px;
+}
+ul.hero__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 150px;
+}
+
+.big_btn {
+  padding: 14px 24px 15px;
+}
+.notice_item {
+  position: relative;
+}
+.notice {
+  position: absolute;
+  content: "";
+  left: 10px;
+  bottom: -45px;
+  color: #8A8F98;
+  font-size: 12px;
+}
+
+
+
+
+footer.footer {
+  padding: 40px 0;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+.footer__logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+.footer__flex {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.footer__right {
+  flex: 0 60%;
+}
+.footer__columns {
+  display: flex;
+  gap: 30px;
+}
+.footer__columns .footer__column {
+  flex: 1;
+  font-size: 14px;
+}
+.footer__columns .footer__column .menu__title {
+  margin-bottom: 20px;
+}
+
+.footer__menu a {
+  display: block;
+  padding: 10px 0;
+}
+
+.footer a {
+  font-weight: 400;
+  color: #8A8F98;
+}
+.footer a:hover,
+.footer a:focus {
+  color: #F7F8F8;
+}
+
+
+
+/*==BIGGEST CARD ON PAGE==*/
